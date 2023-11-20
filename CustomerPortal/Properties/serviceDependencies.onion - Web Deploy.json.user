@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2023-11-20T09:49:49.169875Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-11-20T10:30:51.7359934Z"
+    }
+  },
+  "parameters": {
+    "onion.resourceName": {
+      "Name": "onion.resourceName",
+      "Type": null,
+      "Value": "onion"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NEw"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "d6768acb-a239-404d-a950-0524c768e176"
+    },
+    "onion.resourceGroupLocation": {
+      "Name": "onion.resourceGroupLocation",
+      "Type": null,
+      "Value": "centralus"
+    },
+    "onion.resourceGroupName": {
+      "Name": "onion.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "NEw"
+    },
+    "onion.subscriptionId": {
+      "Name": "onion.subscriptionId",
+      "Type": "subscription",
+      "Value": "d6768acb-a239-404d-a950-0524c768e176"
+    }
+  }
+}

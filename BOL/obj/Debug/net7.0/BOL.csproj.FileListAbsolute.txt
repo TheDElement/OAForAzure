@@ -1,0 +1,11 @@
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\bin\Debug\net7.0\BOL.deps.json
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\bin\Debug\net7.0\BOL.dll
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\bin\Debug\net7.0\BOL.pdb
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\obj\Debug\net7.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\obj\Debug\net7.0\BOL.AssemblyInfoInputs.cache
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\obj\Debug\net7.0\BOL.AssemblyInfo.cs
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\obj\Debug\net7.0\BOL.csproj.CoreCompileInputs.cache
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\obj\Debug\net7.0\BOL.dll
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\obj\Debug\net7.0\refint\BOL.dll
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\obj\Debug\net7.0\BOL.pdb
+C:\Users\Deetya\Downloads\OAbyDM\UniversityProject\BOL\obj\Debug\net7.0\ref\BOL.dll

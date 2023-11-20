@@ -21,6 +21,10 @@ namespace CustomerPortal.Controllers
         public IActionResult Privacy()
         {
             return View();
+        } 
+        public IActionResult StudentData()
+        {
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

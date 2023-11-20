@@ -14,6 +14,7 @@ namespace CustomerPortal.Controllers
         }
         [HttpGet]
         public IActionResult StudentList()
+        
         {
             // -- Main  Model
 
@@ -25,6 +26,31 @@ namespace CustomerPortal.Controllers
 
 
             return View(studentModule);
+        }
+
+        [HttpGet]
+        public IActionResult CreateStudent()
+        {
+            
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CreateStudentPost(Students FormData)
+        {
+            
+               string result = _studentsLogic.SaveStudentRecordLogic(FormData);
+
+                if(result == "Record Saved Successfully")
+                {
+                    return RedirectToAction("StudentList", "Stutents");
+                }
+                else
+                {
+                    TempData["Error"] = result;
+                    return RedirectToAction("CreateStudent", "Stutents");
+                }
         }
     }
 }

@@ -38,6 +38,37 @@ namespace DAL.DataServices
             }
 
             return studentsList;
+        } 
+        
+        public string SaveStudentRecordDAL(Students FormData)
+        {
+            string result = string.Empty;
+
+            try
+            {
+                using(IDbConnection dbConnection = _dapperOrmHelper.GetDapperContextHelper())
+                {
+                    string SqlQuery = "SELECT * FROM Students"; 
+                    dbConnection.Execute(@"INSERT INTO Students(FirstName, LastName, Email)values(@FirstName, @LastName, @Email)",
+                        new
+                        {
+                            FirstName = FormData.FirstName,
+                            LastName = FormData.LastName,
+                            Email = FormData.Email
+
+                        },
+                        commandType: CommandType.Text);
+
+                    result = "Record Saved Successfully";
+
+                }   
+            }
+            catch (Exception ex)
+            {
+                string message = ex.Message;
+            }
+
+            return result;
         }
     }
 }

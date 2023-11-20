@@ -21,5 +21,26 @@ namespace BLL.LogicServices
             studentsList = _studentDataDAL.GetStudentsListDAL();
             return studentsList;
         }
+
+        public string SaveStudentRecordLogic(Students FormData)
+        {
+            string result = string.Empty;
+            if(String.IsNullOrEmpty(FormData.FirstName) || String.IsNullOrEmpty(FormData.LastName) || String.IsNullOrEmpty(FormData.Email))
+            {
+                return result = "Please give all the information";
+            }
+
+            result = _studentDataDAL.SaveStudentRecordDAL(FormData);
+            
+            if(result == "Record Saved Successfully")
+            {
+                return result;
+            }
+            else
+            {
+                return result = "Something went wrong";
+            }
+
+        }
     }
 }
